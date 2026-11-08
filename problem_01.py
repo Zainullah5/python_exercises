@@ -3,6 +3,8 @@
 # If the product of the two numbers is less than or equal to 1000, return their product; 
 # otherwise, return their sum.
 
+num1 = int(input('Enter first number :'))
+num2 = int(input('Enter second number :'))
 def Multiplication_or_sum(num1 , num2):
     product = num1  * num2
     if product<= 1000 :
@@ -11,6 +13,4 @@ def Multiplication_or_sum(num1 , num2):
         return f'sum of {num1} and {num2} is :{num1 + num2}'
 
 
-print(Multiplication_or_sum(20 , 30))
-
-print(Multiplication_or_sum(40 ,30))
+print(Multiplication_or_sum(num1 , num2))
